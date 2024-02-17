@@ -1,6 +1,6 @@
 ## Invoice Generator
 
-This is a React component for generating invoices. It allows users to input sender details, customer details, invoice details, invoice items, payout details, and additional notes to generate a PDF invoice.
+This is a app for generating invoices. It allows users to input sender details, customer details, invoice details, invoice items, payout details, and additional notes to generate a PDF invoice.
 
 ### Features
 
@@ -23,7 +23,9 @@ This is a React component for generating invoices. It allows users to input send
 
 ### Installation
 
-1. Clone the repository.
+1. Clone the repository
+`git clone https://github.com/mohitchandel/invoice-generator.git`
+
 2. Install dependencies using `npm install` or `yarn install`.
 3. Run the application using `npm start` or `yarn start`.
 
@@ -32,3 +34,9 @@ This component can be easily customized to fit your specific needs. You can modi
 
 ### Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request on GitHub.
+
+#### Tech Stack
+
+- Next.Js
+- Tailwind CSS
+- TypeScript
