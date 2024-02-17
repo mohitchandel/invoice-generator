@@ -201,8 +201,8 @@ export default function Component() {
               <Text style={styles.itemTotal}>Total</Text>
             </View>
             {/* Example item */}
-            {invoiceItems.map((item) => (
-              <View style={styles.item}>
+            {invoiceItems.map((item, index) => (
+              <View key={index} style={styles.item}>
                 <Text style={styles.itemName}>{item.name}</Text>
                 <Text style={styles.itemQuantity}>
                   {item.quantity.toString()}
