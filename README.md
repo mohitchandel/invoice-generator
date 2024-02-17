@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Invoice Generator
 
-## Getting Started
+This is a React component for generating invoices. It allows users to input sender details, customer details, invoice details, invoice items, payout details, and additional notes to generate a PDF invoice.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Input Sender Details**: Enter the sender's name and email.
+- **Input Customer Details**: Enter the customer's first name, last name, email, phone, and address.
+- **Input Invoice Details**: Enter the invoice number, invoice date, and due date.
+- **Add Invoice Items**: Add items to the invoice including item name, quantity, price, and tax.
+- **Generate PDF Invoice**: Generate a PDF invoice with all the entered details.
+- **Preview PDF Invoice**: Preview the generated PDF invoice before downloading.
+- **Payout Details**: Enter bank details, PayPal address, and crypto wallet address.
+- **Additional Details**: Add any additional notes or details to the invoice.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `@nextui-org/react`: UI library for Next.js applications.
+- `@react-pdf/renderer`: Library for creating PDF documents in React.
+- `react`: JavaScript library for building user interfaces.
+- `react-hot-toast`: Toast notifications for React applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository.
+2. Install dependencies using `npm install` or `yarn install`.
+3. Run the application using `npm start` or `yarn start`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Customization
+This component can be easily customized to fit your specific needs. You can modify the UI, add or remove input fields, or extend its functionality according to your requirements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request on GitHub.
